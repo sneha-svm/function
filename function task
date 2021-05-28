@@ -5,7 +5,7 @@ def most_frequent(string):
         if key not in d:
             d[key] = 1
         else:
-            d[key] += 1
+            d[key] = d[key] + 1
     return d
 
 print (most_frequent(X))

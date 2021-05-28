@@ -1,4 +1,4 @@
-X = input('Enter your string ')
+X = "Mississipi"
 def most_frequent(string):
     d = dict()
     for key in string:
